@@ -107,6 +107,7 @@
 		F1D3433D29C37024002ED7DE /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3433C29C37024002ED7DE /* SettingsVM.swift */; };
 		F1DD87EE2AA795910095C057 /* LineChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD87ED2AA795910095C057 /* LineChartTests.swift */; };
 		F1DD87F02AA799700095C057 /* BarChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD87EF2AA799700095C057 /* BarChartTests.swift */; };
+		F1E14A902B239D3A006B5C93 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E14A8F2B239D3A006B5C93 /* BackgroundModifier.swift */; };
 		F1E8BFE329900C5500486A6D /* CircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8BFE229900C5500486A6D /* CircleChart.swift */; };
 		F1F568C8298DA72100227F88 /* ImpactSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F568C7298DA72100227F88 /* ImpactSegment.swift */; };
 /* End PBXBuildFile section */
@@ -234,6 +235,7 @@
 		F1D3433C29C37024002ED7DE /* SettingsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVM.swift; sourceTree = "<group>"; };
 		F1DD87ED2AA795910095C057 /* LineChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartTests.swift; sourceTree = "<group>"; };
 		F1DD87EF2AA799700095C057 /* BarChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartTests.swift; sourceTree = "<group>"; };
+		F1E14A8F2B239D3A006B5C93 /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
 		F1E8BFE229900C5500486A6D /* CircleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChart.swift; sourceTree = "<group>"; };
 		F1F568C7298DA72100227F88 /* ImpactSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactSegment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -346,6 +348,7 @@
 				F1A7102C2A43757D00255F10 /* CardView.swift */,
 				F14140472A476408007E4648 /* AppStoreRating.swift */,
 				F1A05C5E2A642670003734F2 /* StringExtension.swift */,
+				F1E14A8F2B239D3A006B5C93 /* BackgroundModifier.swift */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -714,6 +717,7 @@
 				F10D66B2298D57BD00993237 /* BlockView.swift in Sources */,
 				F1A772412A1795C6004B8DCC /* UserSubject+CoreDataClass.swift in Sources */,
 				F11583042AA4AB3500122FBB /* Models.swift in Sources */,
+				F1E14A902B239D3A006B5C93 /* BackgroundModifier.swift in Sources */,
 				F1D3433D29C37024002ED7DE /* SettingsVM.swift in Sources */,
 				F1A59A3E2A6347880039C95E /* ToastView.swift in Sources */,
 				F10D66B4298D66C200993237 /* ExamVM.swift in Sources */,
