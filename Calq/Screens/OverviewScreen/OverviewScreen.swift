@@ -17,9 +17,10 @@ struct OverviewScreen: View {
                     scrollViewBody()
                 }
                 .padding(.horizontal)
+                .background(Color.backgroundColor)
                 .navigationTitle("OverViewTitle")
                 .onAppear(perform: vm.updateViews)
-            }.navigationViewStyle(StackNavigationViewStyle())
+            }
             .refreshable {
                 vm.updateViews()
             }
@@ -30,6 +31,7 @@ struct OverviewScreen: View {
                     scrollViewBody()
                 }
                 .padding(.horizontal)
+                .background(Color.backgroundColor)
                 .navigationTitle("OverViewTitle")
                 .onAppear(perform: vm.updateViews)
             }.navigationViewStyle(StackNavigationViewStyle())

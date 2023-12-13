@@ -52,6 +52,6 @@ struct TabbarView: View {
             SettingsScreen(vm: SettingsViewModel())
                 .tabItem {Image(systemName: "gearshape.fill")}
                 .tag(4)
-        }
+        }//.background(Color.purple)
     }
 }
